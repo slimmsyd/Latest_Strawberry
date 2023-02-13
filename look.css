@@ -319,6 +319,12 @@ header{
 
 
 /* Header section  */
+@media screen and (max-width: 759px)
+{
+    .headersection{
+        background-size: contain !important;
+    }
+}
 .headersection {
     height: 120vh;
     width: 100%;
