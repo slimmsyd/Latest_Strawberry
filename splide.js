@@ -1,6 +1,5 @@
 
 new Splide( '.splide', {
-  cover: false,
 } ).mount();
 
 
