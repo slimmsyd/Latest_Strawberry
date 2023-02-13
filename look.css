@@ -5,6 +5,11 @@ body,html{
     scroll-behavior: smooth;
     max-width: 100%;
 }
+@media screen and (max-width: 750px){
+    body{
+        overflow-x: hidden !important;
+    }
+}
 * {
     font-family: 'Bebas Neue', cursive;
     color: #fff;
@@ -338,7 +343,7 @@ header{
 
 }
 .headerTwo{
-    background: url('./images/CAM\ LAVISH.JPG');
+    background: url('./images/CAM\ LAVISH.png');
     background-attachment: fixed !important; 
 
 
@@ -547,7 +552,7 @@ header{
 }
 .three
 {
-    background: url('./images/CAM\ LAVISH.JPG');
+    background: url('./images/CAM\ LAVISH.png');
 }
 .four{
     background: url('./images/TFEMI.png');
@@ -706,11 +711,9 @@ option{
 
 
 .footer-socials{ 
-    margin-left: auto;
-    margin-right: 30px;
-    width: 900px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    display: flex;
     gap: 15px;
     align-items: center;
 
@@ -728,6 +731,8 @@ option{
 {
     height: 90px;
     width: 90px;
+    margin: 0 auto;
+
 
 }
 .footer-image img {
