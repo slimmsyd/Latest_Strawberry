@@ -247,12 +247,12 @@
             </div>
 
             <div class = "form-contanier">
-                <form action = "https://formsubmit.co/el/hibage" method = "POST">
+                <form  id="confirmationForm" name="confirmationForm"   action = "https://formsubmit.co/el/hibage" method = "POST">
                     <div class = "flex-col">
                         <label for = "input-email"><span>EMAIL</span></label>
                         <input class = "form-input" name = "email" id = "form-input" type = "email" required = "required" placeholder="Email Address">
-                        <label for = "input-country"><span>Tell us More</span></label>
-                        <input rows = "8" class = "form-input-rows" name = "text" type = "text" placeholder="Tell us more" required> 
+                        <!-- <label for = "input-country"><span>Tell us More</span></label> -->
+                        <textarea name="confirmationText" form="confirmationForm" rows = "8" class = "form-input-rows" name = "text" type = "text" placeholder="Tell Us More" required></textarea>
                     </div>
 
                     <button type = "submit" class = "submit">submit</button>

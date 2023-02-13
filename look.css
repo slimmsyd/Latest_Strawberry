@@ -627,7 +627,7 @@ header{
    font-family: 'Bebas Neue', cursive;
     background: transparent !important;
     border: 0;
-    border-bottom: 2px solid #780acd;
+    border: 1px solid #780acd;
     color: white;
     box-shadow: none !important;
     font-size: 16px;
@@ -667,7 +667,7 @@ option{
     font-family: 'Bebas Neue', cursive;
     background: transparent !important;
     border: 0;
-    border-bottom: 2px solid #780acd;
+    border: 1px solid #780acd;
     color: white;
     box-shadow: none !important;
     font-size: 16px;
@@ -683,6 +683,12 @@ option{
     margin: 0 auto;
     text-align: center;
 
+}
+@media screen and (max-width: 1023px)
+{
+    .aboutContainer{
+        width: auto !important;
+    }
 }
 .aboutContainer h1 {
     text-align: center;
