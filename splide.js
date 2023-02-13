@@ -1,8 +1,5 @@
 
 new Splide( '.splide', {
-  autoWidth: true,
-  focus    : 0,
-  omitEnd  : true,
   cover: false,
 } ).mount();
 
