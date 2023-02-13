@@ -332,9 +332,10 @@ header{
 }
 .headersection {
     height: 120vh;
-    width: 100%;
+    width: 900px;
     background-repeat: no-repeat !important;
     background-position: center center !important;
+
 }
 .headerOne{
     background: url('/images/RELIC\ RYMES.png');
