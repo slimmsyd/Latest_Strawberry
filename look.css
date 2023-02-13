@@ -336,12 +336,10 @@ header{
     background-attachment: fixed !important; 
     background-size: cover;
 
-
 }
 .headerTwo{
     background: url('./images/CAM\ LAVISH.JPG');
     background-attachment: fixed !important; 
-    background-size: cover;
 
 
 
@@ -357,7 +355,6 @@ header{
 .headerFour{
     background: url('./images/TFEMI.png');
     background-attachment: fixed !important; 
-    background-size: cover;
 
 
 
@@ -365,14 +362,12 @@ header{
 .headerFive{
     background: url('./images/ENFINOT.png');
     background-attachment: fixed !important; 
-    background-size: cover;
 
 
 }
 .headerSix{
     background: url('./images/RIESE\ KENDRICK.JPG');
     background-attachment: fixed !important; 
-    background-size: cover;
 
 
 }
