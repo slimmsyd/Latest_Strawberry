@@ -1,10 +1,5 @@
+new Splide( '.splide' ).mount();
 
-const splide =  new Splide( '.splide', {
-    type    : 'loop',
-    autoplay: 'play',
-  } )
-
-  splide.mount()
 
 
 
