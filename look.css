@@ -589,15 +589,19 @@ header{
 
 /* Contact us  */
 .contact{
-    background: url('./images/CityImage.jpeg');
-    background-size: contain;
+    background: url('./images/CityImage.png');
+    background-size: cover;
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
     align-items: center;
    font-family: 'Bebas Neue', cursive;
    color: #fff;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
 .mail-list{
    font-family: 'Bebas Neue', cursive;
 
