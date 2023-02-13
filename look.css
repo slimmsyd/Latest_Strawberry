@@ -328,39 +328,52 @@ header{
 .headersection {
     height: 120vh;
     width: 100%;
-    background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
 }
 .headerOne{
     background: url('/images/RELIC\ RYMES.png');
     background-attachment: fixed !important; 
+    background-size: cover;
+
 
 }
 .headerTwo{
     background: url('./images/CAM\ LAVISH.JPG');
     background-attachment: fixed !important; 
+    background-size: cover;
+
+
 
 }
 .headerThree{
     background: url("./images/JU!CE.png");
     background-attachment: fixed !important; 
+    background-size: cover;
+
 
 
 }
 .headerFour{
     background: url('./images/TFEMI.png');
     background-attachment: fixed !important; 
+    background-size: cover;
+
+
 
 }
 .headerFive{
     background: url('./images/ENFINOT.png');
     background-attachment: fixed !important; 
+    background-size: cover;
+
 
 }
 .headerSix{
     background: url('./images/RIESE\ KENDRICK.JPG');
     background-attachment: fixed !important; 
+    background-size: cover;
+
 
 }
 .headercontent {
