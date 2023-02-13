@@ -4,6 +4,7 @@ body,html{
     background: #030200;
     scroll-behavior: smooth;
     max-width: 100%;
+    background: url('./images/RELIC\ RYMES.png')
 }
 @media screen and (max-width: 750px){
     body{
