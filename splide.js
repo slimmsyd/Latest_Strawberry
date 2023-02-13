@@ -20,7 +20,6 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
-    spaceBetween: 800,
     autoplay: {
       delay: 5000,
     },
