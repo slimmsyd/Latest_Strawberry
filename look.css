@@ -587,16 +587,16 @@ header{
 }
 
 
-/* Contact us  */z
+/* Contact us  */
 .contact{
+    background: url('./images/CityImage.jpeg');
+    background-size: contain;
     position: relative;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
    font-family: 'Bebas Neue', cursive;
    color: #fff;
-   background:#030200;
 }
 .mail-list{
    font-family: 'Bebas Neue', cursive;
@@ -782,12 +782,12 @@ content: "" !important;
 top: 40% !important;
 }
 .next, .prev, .splide__arrow{
+    display: none !important;
 position: absolute !important;
 height: 51px !important;
 width: 51px !important;
 border-radius: 50px !important;
 background: #fff;
-display: flex !important;
 align-items: center !important;
 justify-content: center !important;
 cursor: pointer !important;
